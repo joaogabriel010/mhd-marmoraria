@@ -43,20 +43,33 @@ nav {
 }
 
 
+/* ============================= */
 /* LOGO */
+/* ============================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .logo img {
-    width: 150px;
+    width: 170px;
+    max-width: 100%;
     height: auto;
     display: block;
+    object-fit: contain;
 }
 
 
+/* ============================= */
 /* MENU */
+/* ============================= */
 
 .menu {
     display: flex;
     gap: 25px;
+    align-items: center;
 }
 
 .menu a {
@@ -477,7 +490,7 @@ footer {
     /* LOGO */
 
     .logo img {
-        width: 130px;
+        width: 145px;
     }
 
 
