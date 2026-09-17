@@ -1,6 +1,3 @@
-/* ============================= */
-/* CONFIGURAÇÕES GERAIS */
-/* ============================= */
 
 * {
     box-sizing: border-box;
@@ -43,9 +40,7 @@ nav {
 }
 
 
-/* ============================= */
 /* LOGO */
-/* ============================= */
 
 .logo {
     display: flex;
@@ -62,9 +57,7 @@ nav {
 }
 
 
-/* ============================= */
 /* MENU */
-/* ============================= */
 
 .menu {
     display: flex;
@@ -257,9 +250,7 @@ section p {
 }
 
 
-/* ============================= */
-/* BOTÃO WHATSAPP */
-/* ============================= */
+/* BOTÕES */
 
 .botao {
     display: inline-block;
@@ -411,9 +402,6 @@ footer {
         box-shadow 0.3s ease;
 }
 
-
-/* ÍCONE */
-
 .whatsapp-flutuante svg {
     width: 34px;
     height: 34px;
@@ -423,18 +411,12 @@ footer {
     display: block;
 }
 
-
-/* EFEITO AO PASSAR O MOUSE */
-
 .whatsapp-flutuante:hover {
     transform: scale(1.12);
 
     box-shadow:
         0 6px 20px rgba(37, 211, 102, 0.45);
 }
-
-
-/* ANIMAÇÃO DE ENTRADA */
 
 @keyframes whatsapp-entrada {
 
@@ -457,13 +439,12 @@ footer {
 
 @media (max-width: 700px) {
 
-    /* MENU */
-
     nav {
         flex-direction: column;
         gap: 18px;
         padding: 18px 15px;
     }
+
 
     .menu {
         width: 100%;
@@ -487,14 +468,10 @@ footer {
     }
 
 
-    /* LOGO */
-
     .logo img {
         width: 145px;
     }
 
-
-    /* TOPO */
 
     .hero {
         padding: 90px 15px;
@@ -509,8 +486,6 @@ footer {
     }
 
 
-    /* FOTOS */
-
     .fotos {
         grid-template-columns: 1fr;
         padding: 0;
@@ -521,43 +496,31 @@ footer {
     }
 
 
-    /* SERVIÇOS */
-
     .servicos {
         flex-direction: column;
     }
 
-
-    /* DIFERENCIAIS */
 
     .diferenciais {
         flex-direction: column;
     }
 
 
-    /* LOCALIZAÇÃO */
-
     .localizacao-info {
         flex-direction: column;
     }
 
-
-    /* SEÇÕES */
 
     section {
         padding: 25px;
     }
 
 
-    /* RODAPÉ */
-
     .footer-conteudo {
         flex-direction: column;
         gap: 30px;
     }
 
-
-    /* WHATSAPP FLUTUANTE */
 
     .whatsapp-flutuante {
         width: 56px;
